@@ -90,6 +90,9 @@ header {
     margin-left: 450px;
     margin-right: 450px;
 }  
+.map {
+    display: inline;
+  }
 .cuadrados {
     margin: 10px 0;
     display: flex; 
@@ -186,6 +189,18 @@ header {
 .green{ 
     background-color: #6BDDE9;
 }
+.pink{ 
+    background-color: #FF66C4;
+}
+.green2{ 
+    background-color: #7ED957;
+}
+.blue{ 
+    background-color:#5271FF;
+}
+.orange{ 
+    background-color:#FF914D;
+}
 .filters{
     display: grid;
     text-decoration: none;
@@ -210,6 +225,10 @@ header {
     margin-right: 1cm;
     margin-left: 1cm;
 }
+.interactive map{
+    display: flex;
+    align-items: center;
+}    
 .community{
     display: flex;
     justify-content: space-between;
@@ -461,6 +480,9 @@ header {
         display: none;
     }
     .office{
+        display: none;
+    }
+    .interactive map{
         display: none;
     }
     .header__like{
