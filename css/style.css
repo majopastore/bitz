@@ -2,7 +2,7 @@
      padding: 0;
      margin: 0;
 }    
-nav{
+header nav{
     width: 13%;
     margin: 3%;
     font-size: 20px;
@@ -105,6 +105,7 @@ header {
 .banner__remix{
     margin: 30px ;
     display: flex;
+    transform: scale(1.2);
 }  
 .mobile__app{
     margin: 3px ;
@@ -117,6 +118,7 @@ header {
 .banner__contact{
     margin: 30px ;
     display: flex;
+    transform: scale(1.1);
 }  
 .banner__app{
     margin: 30px ;
@@ -225,6 +227,22 @@ header {
     margin-right: 1cm;
     margin-left: 1cm;
 }
+.field{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3cm;
+    margin-left: 3cm;
+    margin-right: 3cm;
+    margin-left: 3cm;
+    height: 50vh;
+    background-color:#EDE83B;
+    background-image: linear-gradient(#5271FF,#EDE83B,#BD55A2, #FF5859, #6BDDE9,#7ED957,#FF914D);
+    background-image: linear-gradient(to left #5271FF,#EDE83B, #BD55A2,#FF5859,#6BDDE9,#7ED957,#FF914D);
+    background-image: linear-gradient(to right #5271FF,#EDE83B,#BD55A2,#FF5859,#6BDDE9,#7ED957,#FF914D);
+    background-image: linear-gradient(to top #5271FF,#EDE83B,#BD55A2,#FF5859,#6BDDE9, #7ED957,#FF914D);
+    background-image: linear-gradient(to bottom #5271FF,#EDE83B,#BD55A2,#FF5859,#6BDDE9,#7ED957,#FF914D);
+}
 .interactive map{
     display: flex;
     align-items: center;
@@ -269,10 +287,14 @@ header {
     margin-left: 1cm;
 }
 .marketing3{
-    display: grid;
-    border: 30px;
-    background-color: rgb(224, 224, 224);
-    padding: 200px;
+    display: flex; 
+    height: 50vh;
+    background-color:#EDE83B;
+    background-image: linear-gradient(#5271FF,#EDE83B,#BD55A2, #FF5859, #6BDDE9,#7ED957,#FF914D);
+    background-image: linear-gradient(to left #5271FF,#EDE83B, #BD55A2,#FF5859,#6BDDE9,#7ED957,#FF914D);
+    background-image: linear-gradient(to right #5271FF,#EDE83B,#BD55A2,#FF5859,#6BDDE9,#7ED957,#FF914D);
+    background-image: linear-gradient(to top #5271FF,#EDE83B,#BD55A2,#FF5859,#6BDDE9, #7ED957,#FF914D);
+    background-image: linear-gradient(to bottom #5271FF,#EDE83B,#BD55A2,#FF5859,#6BDDE9,#7ED957,#FF914D);
 }
 .marketing4{
     display: flex;
@@ -286,6 +308,7 @@ header {
     display: grid;
     text-align: center;
     font-size: 15px;
+    font-family: sans-serif;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-row-gap: 20px;
@@ -364,6 +387,37 @@ header {
 .buscador span {
     font-weight: bold;
 }
+.menuMobile {
+    display: none;
+}
+.favorites{
+    width: 50px;
+} 
+.profile_movil{
+    width: 50px;
+}    
+.search_movil{
+    width: 50px;    
+}      
+.transition{
+    height: 80px;
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 70px;
+    padding: 50px;
+    align-items: center;
+    font-family: sans-serif;
+    border: 5px solid #000;   
+    height: 20vh;
+}      
+#t1{
+  transition: height 2s; width: 0.5s;
+}     
+#t1:hover{
+   height: 200px;
+}     
+
 @media only screen and (max-width: 768px){
     .container{
         flex-direction: row;
@@ -396,6 +450,38 @@ header {
     .courses{
         flex-basis: 100%;
     }
+    .staff{
+        flex-basis: 100%;
+    }
+    .school{
+        flex-basis: 100%;
+        align-items: center;
+    }
+    .innovation{
+        flex-basis: 100%;
+        align-items: center;
+    }
+    .banner__remix{
+        flex-basis: 20%;
+    }
+    .marketing2{
+        flex-basis: 100%;
+        align-items: center;        
+    }
+    .marketing4{
+        flex-basis: 100%;
+    }
+    .marketing5{
+        flex-basis: 100%;
+    }
+    .parrafo{
+        flex-basis: 100%;
+        align-items: center; 
+    }
+    .cuadrados{
+        flex-basis: 100%;
+        align-items: center; 
+    }
 
 }
 
@@ -422,7 +508,7 @@ header {
         width: 150px;
     }
     .header__profile{
-        flex-basis: 50%;
+        display: none;
     }
     .section{
         flex-basis: 50%;
@@ -485,13 +571,36 @@ header {
     .interactive map{
         display: none;
     }
-    .header__like{
-        width: 80px;
-        margin-right: 100px;
+    .menuMobile {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: space-around;
+        padding: 15px;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
     }
-    .header__lupa{
-        width: 80px;
-        margin-right: 100px;
+    .menuMobile div a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+    }
+    .menuMobile img {
+        width: 30px;
+    }
+    .menuMobile span {
+        display: block;
+    }
+    .search_movil{
+        flex-basis: 50%;
+    }
+    .favorites{
+        flex-basis: 50%;
+    }
+    .profile_movil{
+        flex-basis: 50%;
     }
 } 
 
