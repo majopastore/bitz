@@ -16,6 +16,10 @@ nav a{
 nav li:hover{
     background-color: rgb(165, 164, 164);
 }
+footer{
+	display: flex;
+    justify-content: space-around;
+}
 .header__logo{
     width: 250px;
     margin-right: 130px;
@@ -43,10 +47,7 @@ header {
     padding: 8px;
 }
 .button{
-    text-decoration: none;
     display: flex;
-    height: 50px;
-    width: 250px;
     margin-top: 100px;
     margin-bottom: 100px;
     background-color: rgb(255, 255, 255);
@@ -58,7 +59,6 @@ header {
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 35px;
-    margin-left: 1cm;
 }    
 .button3{
     display: flex;
@@ -85,9 +85,6 @@ header {
     margin-left: 450px;
     margin-right: 450px;
 }  
-.map{
-    display: inline;
-}
 .cuadrados{
     margin: 10px 0;
     display: flex; 
@@ -277,7 +274,7 @@ header {
 }
 .marketing3{
     display: flex; 
-    height: 5vh;
+    height: 8vh;
     background-color:#EDE83B;
     background-image: linear-gradient(#5271FF,#EDE83B,#BD55A2, #FF5859, #6BDDE9,#7ED957,#FF914D);
     background-image: linear-gradient(to left #5271FF,#EDE83B, #BD55A2,#FF5859,#6BDDE9,#7ED957,#FF914D);
@@ -301,7 +298,6 @@ header {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-row-gap: 20px;
-    padding: 10px;
     background-color: rgb(0, 0, 0);
     background-size: 50% 100%;
     background-repeat: no-repeat;
@@ -358,7 +354,7 @@ header {
 .opinions .star{ 
     width: 20px;
 } 
-.buscador {
+.buscador{
     background-color: rgb(0, 0, 0);
     border: 1px solid rgb(255, 255, 255);
     border-radius: 24px;
@@ -368,7 +364,7 @@ header {
     display:flex;
     align-items: center;
 }
-.buscador img {
+.buscador img{
     height: 16px;
     width: 16px;
     padding-right: 10px;
@@ -406,6 +402,22 @@ header {
 #t1:hover{
    height: 200px;
 }     
+.btn-secondary{
+	color: #fff;
+    background-color: black;
+    border-color: black;
+} 
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+} 
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
 @media only screen and (max-width: 768px){
     .container{
         flex-direction: row;
@@ -423,7 +435,7 @@ header {
     .section{
         flex-basis: 50%;
     }
-    .footer{
+    footer{
         flex-basis: 100%;
     }
     .cuadrados{
@@ -473,6 +485,15 @@ header {
         flex-basis: 100%;
         align-items: center; 
     }
+    .btn-secondary{
+        flex-basis: 100%;
+    } 
+    .b-example-divider{
+        flex-basis: 100%;
+    } 
+    .bi{
+        flex-basis: 100%;
+    } 
 }
 
 @media only screen and (max-width: 480px){
@@ -503,7 +524,7 @@ header {
     .section{
         flex-basis: 50%;
     }
-    .footer{
+    footer{
         flex-basis: 100%;
     }
     .cuadrados{
@@ -592,6 +613,21 @@ header {
     .profile_movil{
         flex-basis: 50%;
     }
+    .dropdown{
+        display: none;
+    }
+    .btn-secondary{
+        display: none;
+    } 
+    .b-example-divider{
+        display: none;
+    } 
+    .bi{
+        display: none;
+    } 
+    .b-example-divider{
+        display: none;
+    } 
 } 
 
 
