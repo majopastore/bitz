@@ -28,7 +28,9 @@
         <li><a href="aboutus.html">About us</a></li>
         <li><a href="contact.html">Contact</a></li>
     </nav>
+    <div id="profile__horizontal">
     <img src="../img/profile.png" alt="Icono de profile" class="profile">
+     </div>
   </header> 
   <main>
          <ul class="courses"> 
@@ -41,11 +43,82 @@
          <button class="filters">Filter 6</button>
          <button class="filters">Filter 7</button>
         </ul>
+
+        <nav class="menuMobile">
+          <div>
+              <a href="search_movil">
+                  <img src="../img/search.png" alt="Search">
+                  <span>Search</span>
+              </a>
+          </div>
+          <div>
+              <a href="favorites">
+                  <img src="../img/heart.png" alt="Favorites">
+                  <span>Favorites</span>
+              </a>
+          </div>
+          <div>
+              <a href="profile_movil">
+                  <img src="../img/account.png" alt="Profile">
+                  <span>Profile</span>
+              </a>
+          </div>
+      </nav>  
   </main>
 
-   <footer>
-
-   </footer>
+  <footer class="container" style="padding-bottom: 100px">
+    <div class="row">
+      <div class="col-12 col-md-2 col-lg-2">
+        <h5>Home</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Services</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Business</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Community</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About us</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-2 col-lg-2">
+        <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+          </ul>
+      </div>
+      <div class="col-12 col-md-2 col-lg-2">
+        <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+          </ul>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <form>
+          <h5>Subscribe to our newsletter</h5>
+          <p>Monthly digest of whats new and exciting from us.</p>
+          <div class="d-flex w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-primary" type="button">Subscribe</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-12 col-md-12 col-lg-12 d-flex justify-content-between my-4">
+        <p>&copy; 2021 Company, Inc. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+        </ul>
+      </div>
+    </div>
+</footer>
    
      <!-- scripts -->
      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
