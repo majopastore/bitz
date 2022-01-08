@@ -1,0 +1,268 @@
+/* Main Index */
+.cuadrados{
+   margin: 10px 0;
+   display: flex; 
+   justify-content: space-around;
+   background-image: url(../img/background.png);
+   background-position: bottom center;
+   background-size: 100% 50%;
+   background-repeat: no-repeat;
+& .button{
+   display: flex;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   background-color: rgb(255, 255, 255);
+   border: rgb(0, 0, 0);
+   border-radius: 50px;
+ & .button2{
+   text-decoration: none;
+   color: black;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 35px;
+           }   
+            }
+             }
+& .marketing1{
+   display: grid;
+   text-align: center;
+   font-size: 15px;
+   font-family: sans-serif;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   grid-row-gap: 20px;
+   background-color: rgb(0, 0, 0);
+   background-size: 50% 100%;
+   background-repeat: no-repeat;
+}
+
+/* Main About Us */
+ .staff{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2cm;
+    margin-left: 2cm;
+    margin-right: 1cm;
+    margin-left: 1cm;
+ }
+ .school{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 30px;
+    background-color: rgb(241, 241, 241);
+ } 
+ .innovation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+ } 
+ .school .innovation{
+          font-size: 20px;
+ } 
+ .marketing2{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    background-color: rgb(233, 233, 233);
+    padding: 40px;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    margin-right: 1cm;
+    margin-left: 1cm;
+ }
+ .marketing4{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-image: url('../img/Background/04.png');
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+ }
+ .marketing5{
+   display: grid;
+   text-align: center;
+   font-size: 15px;
+   font-family: sans-serif;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   grid-row-gap: 20px;
+   background-color: rgb(0, 0, 0);
+   background-size: 50% 100%;
+   background-repeat: no-repeat;
+}
+ .opinions{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+ }
+ .card{
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+    padding: 75px 10px 10px 10px;
+ }
+ .opinions .profile{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -75px;
+    border-radius: 50%;
+ }  
+ .opinions .star{ 
+    width: 20px;
+ } 
+/* Contact */
+ .community{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .office{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+/* Courses */
+ .violet{ 
+    background-color:#BD55A2
+ }
+ .red{ 
+    background-color:#FF5859
+ }
+ .yellow{ 
+    background-color:#EDE83B
+ }
+ .green{ 
+    background-color: #6BDDE9;
+ }
+ .pink{ 
+    background-color: #FF66C4;
+ }
+ .green2{ 
+    background-color: #7ED957;
+ }
+ .blue{ 
+    background-color:#5271FF;
+ }
+ .orange{ 
+    background-color:#FF914D;
+ }
+ .filters{
+    display: grid;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    width: 50%;
+    border: solid 2px rgb(255, 255, 255);
+    border-style:20px;
+    padding: 28px;
+    margin-top: 3mm;
+    margin-left: 3mm;
+    border-radius: 20px;
+ }
+ .courses{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ .courses li{
+  font-size: 30px;
+  width: 50%;
+  border: solid 2px black;
+  border-radius: 20px;
+  padding: 28px;
+  list-style-type: none;
+  text-align: center;
+  margin-top: 3mm;
+  margin-left: 3mm;
+ }   
+ .courses li a{
+  background-color: white;
+  color: black;
+  padding: 4px;
+  text-decoration: none;
+  border: solid 3px black;
+  border-radius: 10px;
+  box-shadow: 0 1px black;
+  display: inline-block;
+  width: 100%;
+ }    
+
+/* Fields */
+ .transition{
+    height: 80px;
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 70px;
+    padding: 50px;
+    align-items: center;
+    font-family: sans-serif;
+    border: 5px solid #000;   
+    height: 20vh;
+ }   
+ .field{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3cm;
+    margin-left: 3cm;
+    margin-right: 3cm;
+    margin-left: 3cm;
+    height: 50vh;
+    background-color:#EDE83B;
+    background-image:linear-gradient(#5271FF,#EDE83B,#BD55A2, #FF5859, #6BDDE9,#7ED957,#FF914D);
+    background-image: left, linear-gradient(to left #5271FF,#EDE83B, #BD55A2,#FF5859,#6BDDE9,#7ED957,#FF914D);
+    background-image: right, linear-gradient(to right #5271FF,#EDE83B,#BD55A2,#FF5859,#6BDDE9,#7ED957,#FF914D);
+    background-image:top, linear-gradient(to top #5271FF,#EDE83B,#BD55A2,#FF5859,#6BDDE9, #7ED957,#FF914D);
+    background-image:bottom, linear-gradient(to bottom #5271FF,#EDE83B,#BD55A2,#FF5859,#6BDDE9,#7ED957,#FF914D);
+ }   
+ #t1{
+    transition: height 2s; width: 0.5s;
+ }  
+ #t1:hover{
+    height: 200px;
+ }     
+ .marketing3{
+    display: flex; 
+    height: 8vh;
+    background-color:#EDE83B;
+    background-image: linear-gradient(#5271FF,#EDE83B,#BD55A2, #FF5859, #6BDDE9,#7ED957,#FF914D);
+    background-image: linear-gradient(to left #5271FF,#EDE83B, #BD55A2,#FF5859,#6BDDE9,#7ED957,#FF914D);
+    background-image: linear-gradient(to right #5271FF,#EDE83B,#BD55A2,#FF5859,#6BDDE9,#7ED957,#FF914D);
+    background-image: linear-gradient(to top #5271FF,#EDE83B,#BD55A2,#FF5859,#6BDDE9, #7ED957,#FF914D);
+    background-image: linear-gradient(to bottom #5271FF,#EDE83B,#BD55A2,#FF5859,#6BDDE9,#7ED957,#FF914D);
+ }
+ .banner__remix:hover{
+    margin: 30px ;
+    display: flex;
+ }  
+ 
+/* Services */
+ .cuadrados{
+    margin: 10px 0;
+    display: flex; 
+    justify-content: space-around;
+    background-image: url(../img/background.png);
+    background-position: bottom center;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+ }  
+ .video{
+    display: flex;
+    justify-content: center;
+ }
+ .video video{ 
+    width: 80%;
+ }

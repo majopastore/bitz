@@ -1,0 +1,193 @@
+@media only screen and (max-width: 768px){
+    .carousel-item {
+        height: 100%;
+    }
+   .section{
+       flex-basis: 50%;
+   }
+   footer{
+       flex-basis: 100%;
+   }
+   .cuadrados{
+       flex-basis: 100%;
+   }
+   .buscador{
+       flex-basis: 100%;
+   }
+   .marketing5{
+       flex: 25%;
+   }
+   .courses{
+       flex-basis: 100%;
+   }
+   .staff{
+       flex-basis: 100%;
+   }
+   .school{
+       flex-basis: 100%;
+       align-items: center;
+   }
+   .innovation{
+       flex-basis: 100%;
+       align-items: center;
+   }
+   .banner__remix{
+       flex-basis: 20%;
+   }
+   .marketing2{
+       flex-basis: 100%;
+       align-items: center;        
+   }
+   .marketing4{
+       flex-basis: 100%;
+   }
+   .marketing5{
+       flex-basis: 100%;
+   }
+   .banner__remix{
+       flex-basis: 100%;
+   }
+   .parrafo{
+       flex-basis: 100%;
+       align-items: center; 
+   }
+   .cuadrados{
+       flex-basis: 100%;
+       align-items: center; 
+   }
+   .btn-secondary{
+       flex-basis: 100%;
+   } 
+   .b-example-divider{
+       flex-basis: 100%;
+   } 
+   .bi{
+       flex-basis: 100%;
+   } 
+}
+
+@media only screen and (max-width: 480px){
+    header {
+        flex-direction: column;
+    }
+    header nav {
+        flex-direction: column;
+    }
+    .cuadrados{
+        flex-direction: column;
+        background-size: 100% 100%;
+        align-items: center;
+    }
+   .section{
+       flex-basis: 50%;
+   }
+   footer{
+       flex-basis: 100%;
+   }
+   .cuadrados{
+       flex-direction: column;
+       flex-basis: 50%;
+       background-size: 100% 100%;
+       align-items: center;
+       margin-top: 2cm;
+       margin-left: 2cm;
+       margin-right: 1cm;
+   }
+   .buscador{
+       flex-basis: 100%;
+   }
+   .marketing5{
+       display: none;
+   }
+   .courses{
+       flex-basis: 100%;
+   }
+   .school{
+       display: none;
+   }
+   .marketing2{
+       display: none;
+   }
+   .marketing3{
+       display: none;
+   }
+   .marketing4{
+       display: none;
+   }
+   .staff{
+       flex-basis: 20%;
+       flex-direction: column;
+   }
+   .banner__remix{
+       display: none;
+   }
+   .banner__app{
+       display: none;
+   }
+   .opinions{
+       display: none;
+   }
+   .banner__contact{
+       display: none;
+   }
+   .community{
+       display: none;
+   }
+   .office{
+       display: none;
+   }
+   .interactive map{
+       display: none;
+   }
+   .menuMobile {
+       background-color: rgb(255, 255, 255);
+       display: flex;
+       justify-content: space-around;
+       padding: 15px;
+       position: fixed;
+       width: 100%;
+       bottom: 0;
+   }
+   .menuMobile div a {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       text-decoration: none;
+       color: black;
+   }
+   .menuMobile img {
+       width: 30px;
+   }
+   .menuMobile span {
+       display: block;
+   }
+   .search_movil{
+       flex-basis: 50%;
+   }
+   .favorites{
+       flex-basis: 50%;
+   }
+   .profile_movil{
+       flex-basis: 50%;
+   }
+   .dropdown{
+       display: none;
+   }
+   .btn-secondary{
+       display: none;
+   } 
+   .b-example-divider{
+       display: none;
+   } 
+   .bi{
+       display: none;
+   } 
+   .b-example-divider{
+       display: none;
+   } 
+   #profile__horizontal{
+    display: none;
+   } 
+
+   
+} 
