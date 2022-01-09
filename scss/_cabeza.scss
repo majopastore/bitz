@@ -65,8 +65,7 @@ header .profile {
     margin-right: 100px;
  }
  .header__lupa{
-    width: 80px;
-    margin-right: 100px;
+   @extend .header__like;
  }
  header { 
     display: flex;

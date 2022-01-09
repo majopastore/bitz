@@ -73,11 +73,11 @@
     header nav {
         flex-direction: column;
     }
-    .cuadrados{
+   .cuadrados{
         flex-direction: column;
         background-size: 100% 100%;
         align-items: center;
-    }
+   }
    .section{
        flex-basis: 50%;
    }
@@ -98,9 +98,6 @@
    }
    .marketing5{
        display: none;
-   }
-   .courses{
-       flex-basis: 100%;
    }
    .school{
        display: none;
@@ -188,6 +185,32 @@
    #profile__horizontal{
     display: none;
    } 
-
+   .courses{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 16px;
+   }    
+   .courses li{
+   font-size: 30px;
+   width: 100%;
+   border: solid 2px black;
+   border-radius: 20px;
+   padding: 28px;
+   list-style-type: none;
+   text-align: center;
+   margin-top: 3mm;
+   }   
+   .courses li a{
+   background-color: white;
+   color: black;
+   padding: 4px;
+   text-decoration: none;
+   border: solid 3px black;
+   border-radius: 10px;
+   box-shadow: 0 1px black;
+   display: inline-block;
+   width: 100%;
+   }   
    
 } 

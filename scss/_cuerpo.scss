@@ -7,22 +7,22 @@
    background-position: bottom center;
    background-size: 100% 50%;
    background-repeat: no-repeat;
-& .button{
+}
+ .button{
    display: flex;
    margin-top: 100px;
    margin-bottom: 100px;
    background-color: rgb(255, 255, 255);
    border: rgb(0, 0, 0);
    border-radius: 50px;
- & .button2{
+}
+.button2{
    text-decoration: none;
    color: black;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-size: 35px;
-           }   
-            }
-             }
-& .marketing1{
+}   
+.marketing1{
    display: grid;
    text-align: center;
    font-size: 15px;
@@ -120,6 +120,7 @@
  .opinions .star{ 
     width: 20px;
  } 
+
 /* Contact */
  .community{
     display: flex;
@@ -185,7 +186,6 @@
   list-style-type: none;
   text-align: center;
   margin-top: 3mm;
-  margin-left: 3mm;
  }   
  .courses li a{
   background-color: white;
@@ -197,7 +197,25 @@
   box-shadow: 0 1px black;
   display: inline-block;
   width: 100%;
- }    
+ } 
+ /* Maps */  
+
+ $colors-buttons:(
+    violet-programming:#BD55A2,
+    red-data:#FF5859,
+    green-marketing:#6BDDE9, 
+    yellow-design: #EDE83B,
+    pink-content:#FF66C4, 
+	 green2-product: #7ED957,
+    blue-ia:#5271FF, 
+	 orange-softskills:#FF914D,
+   
+); 
+@each $field, $color in $colors-buttons {
+   .btn--#{$field} {
+       background-color: $color;
+   }
+}
 
 /* Fields */
  .transition{

@@ -1,4 +1,11 @@
 @charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 /* Menú */
 header {
   display: -webkit-box;
@@ -87,12 +94,7 @@ header .profile {
   width: 80px;
 }
 
-.header__like {
-  width: 80px;
-  margin-right: 100px;
-}
-
-.header__lupa {
+.header__like, .header__lupa {
   width: 80px;
   margin-right: 100px;
 }
@@ -143,6 +145,19 @@ header {
 }
 
 /* Main Index */
+.cuadrados {
+  margin: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-image: url(../img/background.png);
+  background-position: bottom center;
+  background-size: 100% 50%;
+  background-repeat: no-repeat;
+}
+
 .button {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -161,39 +176,7 @@ header {
   font-size: 35px;
 }
 
-.button3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 50px;
-  width: 250px;
-  text-align: center;
-  padding-bottom: 10px;
-  background-color: black;
-  color: white;
-  border-radius: 50px;
-}
-
-.cuadrados {
-  margin: 10px 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  background-image: url(../img/background.png);
-  background-position: bottom center;
-  background-size: 100% 50%;
-  background-repeat: no-repeat;
-}
-
-.marketing5 {
+.marketing1 {
   display: -ms-grid;
   display: grid;
   text-align: center;
@@ -281,6 +264,22 @@ header {
           align-items: center;
   background-image: url("../img/Background/04.png");
   background-size: 100% 50%;
+  background-repeat: no-repeat;
+}
+
+.marketing5 {
+  display: -ms-grid;
+  display: grid;
+  text-align: center;
+  font-size: 15px;
+  font-family: sans-serif;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  grid-row-gap: 20px;
+  background-color: black;
+  background-size: 50% 100%;
   background-repeat: no-repeat;
 }
 
@@ -425,7 +424,6 @@ header {
   list-style-type: none;
   text-align: center;
   margin-top: 3mm;
-  margin-left: 3mm;
 }
 
 .courses li a {
@@ -439,6 +437,39 @@ header {
           box-shadow: 0 1px black;
   display: inline-block;
   width: 100%;
+}
+
+/* Maps */
+.btn--violet-programming {
+  background-color: #BD55A2;
+}
+
+.btn--red-data {
+  background-color: #FF5859;
+}
+
+.btn--green-marketing {
+  background-color: #6BDDE9;
+}
+
+.btn--yellow-design {
+  background-color: #EDE83B;
+}
+
+.btn--pink-content {
+  background-color: #FF66C4;
+}
+
+.btn--green2-product {
+  background-color: #7ED957;
+}
+
+.btn--blue-ia {
+  background-color: #5271FF;
+}
+
+.btn--orange-softskills {
+  background-color: #FF914D;
 }
 
 /* Fields */
@@ -749,10 +780,6 @@ footer {
   .marketing5 {
     display: none;
   }
-  .courses {
-    -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-  }
   .school {
     display: none;
   }
@@ -856,12 +883,40 @@ footer {
   #profile__horizontal {
     display: none;
   }
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  .courses {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 16px;
+  }
+  .courses li {
+    font-size: 30px;
+    width: 100%;
+    border: solid 2px black;
+    border-radius: 20px;
+    padding: 28px;
+    list-style-type: none;
+    text-align: center;
+    margin-top: 3mm;
+  }
+  .courses li a {
+    background-color: white;
+    color: black;
+    padding: 4px;
+    text-decoration: none;
+    border: solid 3px black;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 1px black;
+            box-shadow: 0 1px black;
+    display: inline-block;
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=estilos.css.map */
