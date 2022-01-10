@@ -68,10 +68,6 @@ header .profile {
   width: 50px;
 }
 
-.search_movil {
-  width: 50px;
-}
-
 /* Carousel */
 .carousel-item {
   height: 600px;
@@ -119,29 +115,8 @@ header {
 }
 
 /* Search */
-.buscador input {
-  border: 1px;
-  border-radius: 32px;
-  width: 25%;
-  padding: 8px;
-}
-
-.search {
-  padding: 100px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-bottom: 25px;
-  padding-top: 25px;
-  margin-top: 90px;
-  margin-bottom: 90px;
-  margin-left: 450px;
-  margin-right: 450px;
+.search_movil {
+  width: 50px;
 }
 
 /* Main Index */
@@ -158,22 +133,29 @@ header {
   background-repeat: no-repeat;
 }
 
+.cuadrados section {
+  border: 7px solid black;
+  border-radius: 25px;
+  padding: 20px;
+}
+
 .button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  background-color: white;
+  margin-top: 170px;
+  margin-bottom: 200px;
+  background-color: black;
   border: black;
   border-radius: 50px;
 }
 
 .button2 {
   text-decoration: none;
-  color: black;
+  color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 35px;
+  padding: 50px;
 }
 
 .marketing1 {
@@ -216,8 +198,13 @@ header {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  margin: 16px;
   border-radius: 30px;
   background-color: #f1f1f1;
+}
+
+.title {
+  margin: 20px;
 }
 
 .innovation {
@@ -234,7 +221,26 @@ header {
 }
 
 .school .innovation {
-  font-size: 20px;
+  font-size: 25px;
+}
+
+.button3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 50px;
+  width: 250px;
+  text-align: center;
+  padding-bottom: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 50px;
 }
 
 .marketing2 {
@@ -327,6 +333,13 @@ header {
   width: 20px;
 }
 
+.banner__app {
+  margin: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 /* Contact */
 .community {
   display: -webkit-box;
@@ -353,38 +366,6 @@ header {
 }
 
 /* Courses */
-.violet {
-  background-color: #BD55A2;
-}
-
-.red {
-  background-color: #FF5859;
-}
-
-.yellow {
-  background-color: #EDE83B;
-}
-
-.green {
-  background-color: #6BDDE9;
-}
-
-.pink {
-  background-color: #FF66C4;
-}
-
-.green2 {
-  background-color: #7ED957;
-}
-
-.blue {
-  background-color: #5271FF;
-}
-
-.orange {
-  background-color: #FF914D;
-}
-
 .filters {
   display: -ms-grid;
   display: grid;
@@ -530,7 +511,7 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 8vh;
+  height: 15vh;
   background-color: #EDE83B;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#5271FF), color-stop(#EDE83B), color-stop(#BD55A2), color-stop(#FF5859), color-stop(#6BDDE9), color-stop(#7ED957), to(#FF914D));
   background-image: linear-gradient(#5271FF, #EDE83B, #BD55A2, #FF5859, #6BDDE9, #7ED957, #FF914D);
@@ -638,8 +619,8 @@ footer {
         flex-basis: 50%;
   }
   footer {
-    -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
+    -ms-flex-preferred-size: 150%;
+        flex-basis: 150%;
   }
   .cuadrados {
     -ms-flex-preferred-size: 100%;
@@ -679,6 +660,10 @@ footer {
   .banner__remix {
     -ms-flex-preferred-size: 20%;
         flex-basis: 20%;
+  }
+  .banner__app {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
   }
   .marketing2 {
     -ms-flex-preferred-size: 100%;
@@ -773,9 +758,13 @@ footer {
     margin-left: 2cm;
     margin-right: 1cm;
   }
-  .buscador {
-    -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
+  .button {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+  .button2 {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
   }
   .marketing5 {
     display: none;
@@ -800,8 +789,13 @@ footer {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .banner__remix {
-    display: none;
+  .field {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .banner__app {
     display: none;

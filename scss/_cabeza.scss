@@ -39,9 +39,6 @@ header .profile {
 .profile_movil{
    width: 50px;
 }    
-.search_movil{
-   width: 50px;    
-}      
 
 /* Carousel */
 .carousel-item {
@@ -53,7 +50,7 @@ header .profile {
     object-fit: cover;
 }
 /* Icons */
-.header__logo{
+ .header__logo{
     width: 250px;
     margin-right: 130px;
  }
@@ -78,22 +75,6 @@ header .profile {
  }  
 
  /* Search */
- .buscador input{
-    border: 1px;
-    border-radius: 32px;
-    width: 25%;
-    padding: 8px;
- }
- .search{
-    padding: 100px;
-    justify-content: center;
-    display: flex;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 25px;
-    padding-top: 25px;
-    margin-top: 90px;
-    margin-bottom: 90px;
-    margin-left: 450px;
-    margin-right: 450px;
- } 
+ .search_movil{
+   width: 50px;    
+}  

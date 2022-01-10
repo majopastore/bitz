@@ -1,12 +1,12 @@
 @media only screen and (max-width: 768px){
-    .carousel-item {
-        height: 100%;
-    }
+  .carousel-item {
+      height: 100%;
+   }
    .section{
-       flex-basis: 50%;
+      flex-basis: 50%;
    }
    footer{
-       flex-basis: 100%;
+       flex-basis: 150%;
    }
    .cuadrados{
        flex-basis: 100%;
@@ -34,6 +34,9 @@
    .banner__remix{
        flex-basis: 20%;
    }
+   .banner__app{
+       flex-basis: 100%;
+   }   
    .marketing2{
        flex-basis: 100%;
        align-items: center;        
@@ -64,6 +67,7 @@
    .bi{
        flex-basis: 100%;
    } 
+     
 }
 
 @media only screen and (max-width: 480px){
@@ -93,9 +97,12 @@
        margin-left: 2cm;
        margin-right: 1cm;
    }
-   .buscador{
-       flex-basis: 100%;
+   .button{
+    flex-basis: 50%;
    }
+   .button2{
+    flex-basis: 50%;
+   }   
    .marketing5{
        display: none;
    }
@@ -115,8 +122,9 @@
        flex-basis: 20%;
        flex-direction: column;
    }
-   .banner__remix{
-       display: none;
+   .field{
+     flex-basis: 50%;
+     flex-direction: column;
    }
    .banner__app{
        display: none;
