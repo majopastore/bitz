@@ -119,6 +119,11 @@ header {
   width: 50px;
 }
 
+.navbar-brand {
+  margin-left: 2cm;
+  margin-right: 2cm;
+}
+
 /* Main Index */
 .cuadrados {
   margin: 10px 0;
@@ -130,13 +135,15 @@ header {
   background-image: url(../img/background.png);
   background-position: bottom center;
   background-size: 100% 50%;
+  background-color: #ecececf8;
   background-repeat: no-repeat;
 }
 
 .cuadrados section {
-  border: 7px solid black;
+  border: 7px solid white;
   border-radius: 25px;
   padding: 20px;
+  background-color: black;
 }
 
 .button {
@@ -170,8 +177,20 @@ header {
       grid-template-rows: 1fr 1fr 1fr;
   grid-row-gap: 20px;
   background-color: black;
-  background-size: 50% 100%;
+  background-size: 30% 80%;
   background-repeat: no-repeat;
+}
+
+.titulo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 3cm;
+  margin-left: 1cm;
+  margin-right: 1cm;
+  margin-left: 1cm;
+  padding: 20px;
 }
 
 /* Main About Us */
@@ -743,21 +762,6 @@ footer {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }
-  .cuadrados {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-preferred-size: 50%;
-        flex-basis: 50%;
-    background-size: 100% 100%;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-top: 2cm;
-    margin-left: 2cm;
-    margin-right: 1cm;
-  }
   .button {
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
@@ -810,9 +814,6 @@ footer {
     display: none;
   }
   .office {
-    display: none;
-  }
-  .interactive map {
     display: none;
   }
   .menuMobile {
@@ -911,6 +912,27 @@ footer {
             box-shadow: 0 1px black;
     display: inline-block;
     width: 100%;
+  }
+  .titulo {
+    display: none;
+  }
+  .cuadrados {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    margin: 10px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-position: bottom center;
+  }
+  .cuadrados section {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    border: 7px solid white;
+    border-radius: 25px;
+  }
+  .navbar-brand {
+    display: none;
   }
 }
 /*# sourceMappingURL=estilos.css.map */

@@ -73,10 +73,10 @@
 @media only screen and (max-width: 480px){
     header {
         flex-direction: column;
-    }
+   }
     header nav {
         flex-direction: column;
-    }
+   }
    .cuadrados{
         flex-direction: column;
         background-size: 100% 100%;
@@ -87,15 +87,6 @@
    }
    footer{
        flex-basis: 100%;
-   }
-   .cuadrados{
-       flex-direction: column;
-       flex-basis: 50%;
-       background-size: 100% 100%;
-       align-items: center;
-       margin-top: 2cm;
-       margin-left: 2cm;
-       margin-right: 1cm;
    }
    .button{
     flex-basis: 50%;
@@ -139,9 +130,6 @@
        display: none;
    }
    .office{
-       display: none;
-   }
-   .interactive map{
        display: none;
    }
    .menuMobile {
@@ -220,5 +208,22 @@
    display: inline-block;
    width: 100%;
    }   
+   .titulo{
+    display: none;
+   }
+   .cuadrados{
+    flex-basis: 50%;
+    margin: 10px 0;
+    display: flex;
+    background-position: bottom center;
+    }
+   .cuadrados section{
+    flex-basis: 50%;
+    border: 7px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    }    
+    .navbar-brand{
+       display: none;
+    }  
    
 } 
