@@ -6,11 +6,11 @@
    background-image: url(../img/background.png);
    background-position: bottom center;
    background-size: 100% 50%;
-   background-color:#ecececf8;
+   background-color:#fffffff8;
    background-repeat: no-repeat;
 }
 .cuadrados section{
-   border: 7px solid rgb(255, 255, 255);
+   border: 7px solid rgb(26, 26, 26);
    border-radius: 25px;
    padding: 20px; 
    background-color: rgb(0, 0, 0);
@@ -27,7 +27,7 @@
    text-decoration: none;
    color: rgb(255, 255, 255);
    font-family: Verdana, Geneva, Tahoma, sans-serif;
-   font-size: 35px;
+   font-size: 40px;
    padding: 50px;
 }   
 .marketing1{
@@ -60,8 +60,7 @@
     align-items: center;
     margin-top: 2cm;
     margin-left: 2cm;
-    margin-right: 1cm;
-    margin-left: 1cm;
+    margin-right: 2cm;
  }
  .school{
     display: flex;
@@ -70,9 +69,12 @@
     border-radius: 30px;
     background-color: rgb(241, 241, 241);
  } 
- .title{
+ .title-school{
       margin: 20px;
- }   
+ } 
+ .title-innovation{
+   margin: 20px;
+}   
  .innovation{
     display: flex;
     flex-direction: column;
@@ -93,17 +95,6 @@
    color: white;
    border-radius: 50px;
  }
- .marketing2{
-    display: flex;
-    justify-content: space-between;
-    border-radius: 15px;
-    background-color: rgb(233, 233, 233);
-    padding: 40px;
-    margin-top: 1cm;
-    margin-bottom: 1cm;
-    margin-right: 1cm;
-    margin-left: 1cm;
- }
  .marketing4{
     display: flex;
     justify-content:space-around;
@@ -112,6 +103,16 @@
     background-size: 100% 50%;
     background-repeat: no-repeat;
  }
+ .marketing-cuatro{
+   margin: 10px 0;
+   display: flex; 
+   justify-content: space-around;
+   background-image: url(../img/background.png);
+   background-position: bottom center;
+   background-size: 100% 50%;
+   background-color:#fffffff8;
+   background-repeat: no-repeat;
+}
  .marketing5{
    display: grid;
    text-align: center;
@@ -123,6 +124,8 @@
    background-color: rgb(0, 0, 0);
    background-size: 50% 100%;
    background-repeat: no-repeat;
+   margin: 50px;
+   
  }
  .opinions{
     display: grid;
@@ -153,18 +156,9 @@
  }  
  .opinions .star{ 
     width: 20px;
- } 
- .banner__app{
-   margin: 30px ;
-   display: flex;
- }    
+ }  
 
 /* Contact */
- .community{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
- }
  .office{
     display: flex;
     justify-content: space-between;
