@@ -75,7 +75,7 @@ header .profile {
 
 .carousel-item img {
   height: 100%;
-  width: 100%;
+  width: 40%;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -120,8 +120,14 @@ header {
 }
 
 .navbar-brand {
-  margin-left: 2cm;
-  margin-right: 2cm;
+  margin-left: 1cm;
+  margin-right: 1cm;
+}
+
+.container-md {
+  border-radius: 10px;
+  background-color: white;
+  border: 3px solid black;
 }
 
 /* Main Index */
@@ -181,16 +187,17 @@ header {
   background-repeat: no-repeat;
 }
 
-.titulo {
+.titulo-services {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 50px;
   border-radius: 10px;
   text-align: center;
-  margin-top: 3cm;
-  margin-left: 1cm;
-  margin-right: 1cm;
-  margin-left: 1cm;
-  padding: 20px;
+  padding: 10px;
+  color: white;
+  background-color: black;
+  margin-right: 3cm;
+  margin-left: 4cm;
+  margin-top: 5cm;
 }
 
 /* Main About Us */
@@ -368,7 +375,6 @@ header {
 
 .he {
   margin: bottom 80px;
-  background-color: #ffffff;
 }
 
 .he-image {
@@ -463,6 +469,24 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.space {
+  border-radius: 20px;
+  width: 550px;
+  height: 450px;
+}
+
+.formulario {
+  margin: 100px;
+  padding: 30px;
+  background-color: #e7e7e6;
+  border-radius: 5px;
+}
+
+.container-dos {
+  margin-left: 50px;
+  width: 1500px;
 }
 
 /* Courses */
@@ -621,8 +645,8 @@ header {
   border: 2px solid black;
 }
 
-/* Services */
-.cuadrados {
+/* Academy */
+.background-bitz {
   margin: 10px 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -803,60 +827,144 @@ footer {
     margin-left: 2cm;
     margin-right: 2cm;
   }
+  .navbar-brand {
+    margin-left: 1cm;
+    margin-right: 1cm;
+  }
+  .container-md {
+    border-radius: 10px;
+    background-color: white;
+    border: 3px solid black;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  /* Index */
+  .cuadrados {
+    margin: 10px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    background-image: url(../img/background.png);
+    background-position: bottom center;
+    background-size: 100% 50%;
+    background-color: #fffffff8;
+    background-repeat: no-repeat;
+  }
+  .cuadrados section {
+    border: 7px solid #1a1a1a;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: black;
+  }
+  .button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 170px;
+    margin-bottom: 200px;
+    background-color: black;
+    border: black;
+    border-radius: 50px;
+  }
+  .button2 {
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    padding: 50px;
+  }
+  .marketing1 {
+    display: -ms-grid;
+    display: grid;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 20px;
+    background-color: black;
+    background-size: 30% 80%;
+    background-repeat: no-repeat;
+  }
+  .titulo-services {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 3cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    margin-left: 1cm;
+    padding: 20px;
+    color: white;
+    background-color: black;
+  }
   /* Main About Us */
   .staff {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
-    margin: 3px;
+    margin: 1px;
   }
   .staff-uno {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    margin-left: 100px;
     border-radius: 10px;
     width: 270px;
     height: 300px;
   }
   .staff-dos {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border-radius: 10px;
+    margin-right: 50px;
     width: 270px;
     height: 300px;
   }
   .staff-tres {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 50px;
     width: 270px;
     height: 300px;
   }
   .staff-cuatro {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border-radius: 10px;
+    margin-right: 50px;
     width: 270px;
     height: 300px;
   }
   .staff-cinco {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border-radius: 10px;
+    margin-left: 100px;
     width: 270px;
     height: 300px;
   }
   .staff-seis {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border-radius: 10px;
+    margin-right: 50px;
     width: 270px;
     height: 300px;
   }
   .staff-siete {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border-radius: 10px;
+    margin-left: 100px;
     width: 270px;
     height: 300px;
   }
   .staff-ocho {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border-radius: 10px;
+    margin-right: 50px;
     width: 270px;
     height: 300px;
   }
@@ -868,9 +976,9 @@ footer {
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
     margin: 50px;
-    margin-left: 1cm;
-    margin-right: 1cm;
-    margin-bottom: 1cm;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
     border-radius: 30px;
     background-color: white;
   }
@@ -888,6 +996,7 @@ footer {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-left: 120px;
   }
   .she {
     margin: bottom 80px;
@@ -902,7 +1011,6 @@ footer {
   }
   .he {
     margin: bottom 80px;
-    background-color: #ffffff;
   }
   .he-image {
     margin: 50px;
@@ -936,10 +1044,11 @@ footer {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-left: 100px;
     height: 80px;
     width: 250px;
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
     background-color: black;
     color: white;
     border-radius: 50px;
@@ -1025,6 +1134,8 @@ footer {
     margin-top: 100px;
     position: relative;
     padding: 75px 10px 10px 10px;
+    margin-right: 50px;
+    margin-left: 50px;
   }
   .opinions .profile {
     width: 150px;
@@ -1050,6 +1161,25 @@ footer {
             flex-direction: column;
     margin: 2cm;
   }
+  .space {
+    border-radius: 10px;
+    width: 550px;
+    height: 300px;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    margin: 10px;
+  }
+  .formulario {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: #e7e7e6;
+    border-radius: 10px;
+  }
+  .container-dos {
+    margin-left: 90px;
+    width: 700px;
+  }
   /* Courses */
   .filters {
     display: -ms-grid;
@@ -1067,6 +1197,7 @@ footer {
     margin-left: 3mm;
     border-radius: 20px;
     border: 2px solid black;
+    width: 70%;
   }
   .courses {
     display: -webkit-box;
@@ -1082,13 +1213,13 @@ footer {
   }
   .courses li {
     font-size: 30px;
-    width: 50%;
     border: solid 2px black;
     border-radius: 20px;
     padding: 28px;
     list-style-type: none;
     text-align: center;
     margin-top: 3mm;
+    width: 70%;
   }
   .courses li a {
     background-color: white;
@@ -1102,8 +1233,8 @@ footer {
     display: inline-block;
     width: 100%;
   }
-  /* Services */
-  .cuadrados {
+  /* Academy */
+  .background-bitz {
     margin: 10px 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1194,10 +1325,6 @@ footer {
   .menuMobile span {
     display: block;
   }
-  .search_movil {
-    -ms-flex-preferred-size: 50%;
-        flex-basis: 50%;
-  }
   .favorites {
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
@@ -1208,11 +1335,13 @@ footer {
   }
   /* Carousel */
   .carousel-item {
-    height: 290px;
+    height: 200px;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
   }
   .carousel-item img {
-    height: 70%;
-    width: 70%;
+    height: 100%;
+    width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -1257,27 +1386,37 @@ footer {
     margin-left: 2cm;
     margin-right: 2cm;
   }
+  .navbar-brand {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+  .container-md {
+    border-radius: 10px;
+    background-color: white;
+    border: 3px solid black;
+  }
   /* Main Index */
   .cuadrados {
+    -ms-flex-preferred-size: 20%;
+        flex-basis: 20%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    border-radius: 2%;
+    margin: 3px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
     background-image: url(../img/background.png);
     background-position: bottom center;
-    background-size: 50% 100%;
-    background-color: #fffffff8;
+    background-size: 200% 100%;
     background-repeat: no-repeat;
   }
   .cuadrados section {
-    border: 5px solid #1a1a1a;
-    border-radius: 15px;
-    padding: 10px;
+    border: 7px solid white;
+    border-radius: 25px;
+    padding: 20px;
     background-color: black;
   }
   .section {
@@ -1286,13 +1425,14 @@ footer {
   }
   .button2 {
     text-decoration: none;
+    margin: 50px;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
-    padding: 50px;
+    padding: 20px;
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
-    margin-left: 2cm;
+    bottom: center;
   }
   .button {
     -ms-flex-preferred-size: 50%;
@@ -1300,11 +1440,23 @@ footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin: 35px;
     background-color: black;
-    border: black;
+    border: white;
     border-radius: 50px;
+  }
+  .titulo-services {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 3cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    margin-left: 1cm;
+    padding: 20px;
+    color: white;
+    background-color: black;
   }
   /* Contact */
   .office {
@@ -1317,6 +1469,24 @@ footer {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .space {
+    border-radius: 10px;
+    width: 370px;
+    height: 300px;
+  }
+  .formulario {
+    padding: 3%;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  .container-dos {
+    width: 370px;
+    margin-left: 15px;
+    margin-right: 290px;
+    margin-top: 10px;
   }
   /* Courses */
   .courses {
@@ -1433,8 +1603,8 @@ footer {
     background-color: lightblue;
     border: 2px solid black;
   }
-  /* Services */
-  .cuadrados {
+  /* Academy */
+  .background-bitz {
     margin: 10px 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1470,6 +1640,8 @@ footer {
   .staff-uno {
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
     border-radius: 10px;
     width: 270px;
     height: 300px;
@@ -1477,42 +1649,56 @@ footer {
   .staff-dos {
     margin-bottom: 20px;
     border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
     width: 270px;
     height: 300px;
   }
   .staff-tres {
     margin-bottom: 20px;
     border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
     width: 270px;
     height: 300px;
   }
   .staff-cuatro {
     margin-bottom: 20px;
     border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
     width: 270px;
     height: 300px;
   }
   .staff-cinco {
     margin-bottom: 20px;
     border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
     width: 270px;
     height: 300px;
   }
   .staff-seis {
     margin-bottom: 20px;
     border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
     width: 270px;
     height: 300px;
   }
   .staff-siete {
     margin-bottom: 20px;
     border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
     width: 270px;
     height: 300px;
   }
   .staff-ocho {
     margin-bottom: 20px;
     border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
     width: 270px;
     height: 300px;
   }
@@ -1552,7 +1738,10 @@ footer {
     background-color: #ffffff;
   }
   .she-image {
-    margin: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
     border-radius: 30px;
     border: 5px solid black;
     width: 270px;
@@ -1561,7 +1750,6 @@ footer {
   }
   .he {
     margin: bottom 80px;
-    background-color: #ffffff;
   }
   .he-image {
     border-radius: 30px;

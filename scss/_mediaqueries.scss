@@ -1,27 +1,28 @@
 @media only screen and (max-width: 768px){
+
  /* Menú */
-   header {
+   header{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 0 30px;
    }
-   header .logo {
+   header .logo{
     width: 200px;
    }
-   header nav {
+   header nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
    }
-   header nav li {
+   header nav li{
     list-style: none;
     padding: 10px 30px;
     background-color: black;
     margin: 10px;
     border-radius: 10px;
    }
-   header nav li a {
+   header nav li a{
     text-decoration: none;
     color: white;
    }
@@ -85,59 +86,135 @@
     margin-left: 2cm;
     margin-right: 2cm;
    } 
+   .navbar-brand{
+    margin-left: 1cm;
+    margin-right: 1cm; 
+   }  
+   .container-md{
+    border-radius: 10px; 
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(0, 0, 0);
+    flex-basis: 100%;
+   }  
+ 
+   /* Index */
+   .cuadrados{
+      margin: 10px 0;
+      display: flex; 
+      justify-content: space-around;
+      background-image: url(../img/background.png);
+      background-position: bottom center;
+      background-size: 100% 50%;
+      background-color:#fffffff8;
+      background-repeat: no-repeat;
+   }
+   .cuadrados section{
+      border: 7px solid rgb(26, 26, 26);
+      border-radius: 25px;
+      padding: 20px; 
+      background-color: rgb(0, 0, 0);
+   }    
+   .button{
+      display: flex;
+      margin-top: 170px;
+      margin-bottom: 200px;
+      background-color: rgb(0, 0, 0);
+      border: rgb(0, 0, 0);
+      border-radius: 50px;
+   }
+   .button2{
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 40px;
+      padding: 50px;
+   }   
+   .marketing1{
+      display: grid;
+      text-align: center;
+      font-size: 15px;
+      font-family: sans-serif;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-row-gap: 20px;
+      background-color: rgb(0, 0, 0);
+      background-size: 30% 80%;
+      background-repeat: no-repeat;
+   }
+   .titulo-services{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 50px;
+      border-radius: 10px;
+      text-align: center;
+      margin-top: 3cm;
+      margin-left: 1cm;
+      margin-right: 1cm;
+      margin-left: 1cm;
+      padding: 20px;
+      color:rgb(255, 255, 255);
+      background-color: black;
+   }
 
    /* Main About Us */
    .staff{
     flex-wrap: wrap;
     flex-basis: 100%;   
-    margin:3px;
+    margin:1px;
    }
    .staff-uno{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    margin-left: 100px;
     border-radius: 10px;
     width:270px;
     height:300px
    }
    .staff-dos{
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border-radius: 10px;
+    margin-right: 50px;
     width:270px;
     height:300px
    }
    .staff-tres{
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 50px;
     width:270px;
     height:300px
    }
    .staff-cuatro{
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border-radius: 10px;
+    margin-right: 50px;
     width:270px;
     height:300px
    }
    .staff-cinco{
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border-radius: 10px;
+    margin-left: 100px;
     width:270px;
     height:300px
    }
    .staff-seis{
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border-radius: 10px;
+    margin-right: 50px;
     width:270px;
     height:300px
    }
    .staff-siete{
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border-radius: 10px;
+    margin-left: 100px;
     width:270px;
     height:300px
    }
    .staff-ocho{
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border-radius: 10px;
+    margin-right: 50px;
     width:270px;
     height:300px
    }
@@ -145,9 +222,9 @@
      display: flex;
      justify-content: space-evenly;
      margin: 50px;
-     margin-left: 1cm;
-     margin-right: 1cm;
-     margin-bottom: 1cm;
+     margin-left: 3px;
+     margin-right: 3px;
+     margin-bottom: 3px;
      border-radius: 30px;
      background-color: rgb(341, 341, 341);
    } 
@@ -161,6 +238,7 @@
      margin: 20px;
      font-size: 35px;
      align-items: center;
+     margin-left: 120px;
    } 
    .she{
     margin: bottom 80px;
@@ -175,7 +253,6 @@
    }
    .he{
     margin: bottom 80px;
-    background-color: #ffffff;
    } 
    .he-image{
     margin: 50px;
@@ -196,10 +273,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 100px;
     height: 80px;
     width: 250px;
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
     background-color: rgb(0, 0, 0);
     color: white;
     border-radius: 50px;
@@ -260,6 +338,8 @@
    margin-top: 100px;
    position: relative;
    padding: 75px 10px 10px 10px;
+   margin-right: 50px;
+   margin-left: 50px;
    } 
    .opinions .profile{
    width: 150px;
@@ -279,6 +359,24 @@
     flex-direction: column;
     margin: 2cm;
    }
+   .space{
+    border-radius: 10px;
+    width:550px;
+    height:300px;
+    flex-basis: 100%;   
+    margin: 10px;
+   }
+   .formulario{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: #e7e7e6;
+    border-radius: 10px;
+   }
+   .container-dos{
+    margin-left: 90px;
+    width: 700px;
+   }
 
    /* Courses */
    .filters{
@@ -295,7 +393,8 @@
     margin-top: 3mm;
     margin-left: 3mm;
     border-radius: 20px;
-    border: 2px solid black
+    border: 2px solid black;
+    width: 70%;
     
    }
    .courses{
@@ -304,14 +403,14 @@
    align-items: center;
    }
    .courses li{
-  font-size: 30px;
-  width: 50%;
-  border: solid 2px black;
-  border-radius: 20px;
-  padding: 28px;
-  list-style-type: none;
-  text-align: center;
-  margin-top: 3mm;
+   font-size: 30px;
+   border: solid 2px black;
+   border-radius: 20px;
+   padding: 28px;
+   list-style-type: none;
+   text-align: center;
+   margin-top: 3mm;
+   width: 70%;
    }   
    .courses li a{
   background-color: white;
@@ -325,8 +424,8 @@
   width: 100%;
    } 
 
-   /* Services */
-   .cuadrados{
+   /* Academy */
+   .background-bitz{
     margin: 10px 0;
     display: flex; 
     justify-content: space-around;
@@ -395,9 +494,6 @@
    .menuMobile span {
     display: block;
    }
-   .search_movil{
-    flex-basis: 50%;
-   }
    .favorites{
     flex-basis: 50%;
    }
@@ -407,11 +503,12 @@
 
    /* Carousel */
    .carousel-item {
-         height: 290px;
+         height: 200px;
+         flex-basis: 50%;
    }
    .carousel-item img {
-         height: 70%;
-         width: 70%;
+         height: 100%;
+         width: 100%;
          object-fit: cover;
    }
 
@@ -440,7 +537,7 @@
          margin: 3px ;
          display:flex;
    }  
-      
+
    /* Search */
    .search_movil{
           width: 50px;    
@@ -449,45 +546,68 @@
          margin-left: 2cm;
          margin-right: 2cm;
    }  
+   .navbar-brand{
+    flex-basis: 50%;
+   }  
+   .container-md{
+    border-radius: 10px; 
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(0, 0, 0);
+   }  
 
    /* Main Index */
-   .cuadrados{   
+   .cuadrados{
+    flex-basis: 20%;
     flex-direction: column;
+    border-radius: 2%;
+    margin:3px;
     display: flex; 
-    justify-content: space-around;
     background-image: url(../img/background.png);
     background-position: bottom center;
-    background-size: 50% 100%;
-    background-color:#fffffff8;
+    background-size: 200% 100%;
     background-repeat: no-repeat;
    }
    .cuadrados section{
-    border: 5px solid rgb(26, 26, 26);
-    border-radius: 15px;
-    padding: 10px; 
+    border: 7px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    padding: 20px; 
     background-color: rgb(0, 0, 0);
    }    
    .section{
     flex-basis: 50%;
+
    }
    .button2{
     text-decoration: none;
+    margin: 50px;
     color: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px; 
-    padding: 50px;
+    padding: 20px;
     flex-basis: 50%;
-    margin-left: 2cm;
+    bottom: center;
    }   
    .button{
     flex-basis: 50%;
     display: flex;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin: 35px;
     background-color: rgb(0, 0, 0);
-    border: rgb(0, 0, 0);
+    border: rgb(255, 255, 255);
     border-radius: 50px;
    }  
+   .titulo-services{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 3cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    margin-left: 1cm;
+    padding: 20px;
+    color:rgb(255, 255, 255);
+    background-color: black;
+   }
 
    /* Contact */
    .office{
@@ -495,8 +615,26 @@
     justify-content: space-between;
     align-items: center;
    }
+   .space{
+    border-radius: 10px;
+    width:370px;
+    height:300px;     
+   }
+   .formulario{
+    padding: 3%;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+   }
+   .container-dos{
+    width: 370px;
+    margin-left: 15px;
+    margin-right: 290px;
+    margin-top: 10px;
+   }
 
-    /* Courses */
+  /* Courses */
    .courses{
     display: flex;
     flex-direction: column;
@@ -587,8 +725,8 @@
     border: 2px solid black
    }
 
-   /* Services */
-   .cuadrados{
+   /* Academy */
+   .background-bitz{
    margin: 10px 0;
    display: flex; 
    justify-content: space-around;
@@ -614,51 +752,67 @@
    .staff-uno{
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
     border-radius: 10px;
     width:270px;
-    height:300px
+    height:300px;
    }
    .staff-dos{
     margin-bottom: 20px;
     border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
     width:270px;
-    height:300px
+    height:300px;
    }
    .staff-tres{
     margin-bottom: 20px;
     border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
     width:270px;
-    height:300px
+    height:300px;
    }
    .staff-cuatro{
     margin-bottom: 20px;
     border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
     width:270px;
-    height:300px
+    height:300px;
    }
    .staff-cinco{
     margin-bottom: 20px;
     border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
     width:270px;
-    height:300px
+    height:300px;
    }
    .staff-seis{
     margin-bottom: 20px;
     border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
     width:270px;
-    height:300px
+    height:300px;
    }
    .staff-siete{
     margin-bottom: 20px;
     border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
     width:270px;
-    height:300px
+    height:300px;
    }
    .staff-ocho{
     margin-bottom: 20px;
     border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
     width:270px;
-    height:300px
+    height:300px;
    }
    .school{
     display: flex;
@@ -686,16 +840,17 @@
     background-color: #ffffff;
    } 
    .she-image{
-    margin: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    flex-basis: 50%;
     border-radius:30px;
     border: 5px solid black;
     width:270px;
     height:300px;
     margin-left: 90px;
    }
-  .he{
+   .he{
     margin: bottom 80px;
-    background-color: #ffffff;
    } 
    .he-image{
     border-radius:30px;

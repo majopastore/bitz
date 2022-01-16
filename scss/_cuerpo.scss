@@ -1,5 +1,5 @@
 /* Main Index */
-.cuadrados{
+ .cuadrados{
    margin: 10px 0;
    display: flex; 
    justify-content: space-around;
@@ -8,29 +8,29 @@
    background-size: 100% 50%;
    background-color:#fffffff8;
    background-repeat: no-repeat;
-}
-.cuadrados section{
+ }
+ .cuadrados section{
    border: 7px solid rgb(26, 26, 26);
    border-radius: 25px;
    padding: 20px; 
    background-color: rgb(0, 0, 0);
-}    
-.button{
+ }    
+ .button{
    display: flex;
    margin-top: 170px;
    margin-bottom: 200px;
    background-color: rgb(0, 0, 0);
    border: rgb(0, 0, 0);
    border-radius: 50px;
-}
-.button2{
+ }
+ .button2{
    text-decoration: none;
    color: rgb(255, 255, 255);
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-size: 40px;
    padding: 50px;
-}   
-.marketing1{
+ }   
+ .marketing1{
    display: grid;
    text-align: center;
    font-size: 15px;
@@ -41,18 +41,19 @@
    background-color: rgb(0, 0, 0);
    background-size: 30% 80%;
    background-repeat: no-repeat;
-}
-.titulo{
+ }
+ .titulo-services{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-size: 50px;
    border-radius: 10px;
    text-align: center;
-   margin-top: 3cm;
-   margin-left: 1cm;
-   margin-right: 1cm;
-   margin-left: 1cm;
-   padding: 20px;
-}
+   padding: 10px;
+   color:rgb(255, 255, 255);
+   background-color: black;
+   margin-right:3cm;
+   margin-left:4cm;
+   margin-top:5cm;
+ }
 
 /* Main About Us */
  .staff{
@@ -178,7 +179,6 @@
  }
  .he{
    margin: bottom 80px;
-   background-color: #ffffff;
  } 
  .he-image{
    margin: 50px;
@@ -248,7 +248,22 @@
     justify-content: space-between;
     align-items: center;
  }
- 
+ .space{
+   border-radius: 20px;
+   width: 550px;
+   height:450px;
+ }
+ .formulario{
+   margin: 100px;
+   padding: 30px;
+   background-color: #e7e7e6;
+   border-radius: 5px;
+ }
+ .container-dos{
+  margin-left: 50px;
+  width: 1500px;
+}
+
 /* Courses */
  .filters{
     display: grid;
@@ -357,8 +372,8 @@
    border: 2px solid black
  }
 
-/* Services */
- .cuadrados{
+/* Academy */
+ .background-bitz{
     margin: 10px 0;
     display: flex; 
     justify-content: space-around;

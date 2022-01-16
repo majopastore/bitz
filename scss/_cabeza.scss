@@ -46,7 +46,7 @@ header .profile {
 }
 .carousel-item img {
     height: 100%;
-    width: 100%;
+    width: 40%;
     object-fit: cover;
 }
 /* Icons */
@@ -79,6 +79,13 @@ header .profile {
    width: 50px;    
 }  
  .navbar-brand{
-    margin-left: 2cm;
-    margin-right: 2cm;
+    margin-left: 1cm;
+    margin-right: 1cm; 
 }  
+  .container-md{
+    border-radius: 10px; 
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(0, 0, 0);
+}  
+ 
+
