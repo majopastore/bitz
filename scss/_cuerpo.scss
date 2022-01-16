@@ -53,6 +53,7 @@
    margin-left: 1cm;
    padding: 20px;
 }
+
 /* Main About Us */
  .staff{
     display: flex;
@@ -62,37 +63,89 @@
     margin-left: 2cm;
     margin-right: 2cm;
  }
+ .staff-uno{
+   margin-bottom: 20px;
+   border-radius: 10px;
+   width:270px;
+   height:300px
+ }
+ .staff-dos{
+   margin-bottom: 20px;
+   border-radius: 10px;
+   width:270px;
+   height:300px
+ }
+ .staff-tres{
+   margin-bottom: 20px;
+   border-radius: 10px;
+   width:270px;
+   height:300px
+ }
+ .staff-cuatro{
+   margin-bottom: 20px;
+   border-radius: 10px;
+   width:270px;
+   height:300px
+ }
+ .staff-cinco{
+   margin-bottom: 20px;
+   border-radius: 10px;
+   width:270px;
+   height:300px
+ }
+ .staff-seis{
+   margin-bottom: 20px;
+   border-radius: 10px;
+   width:270px;
+   height:300px
+ }
+ .staff-siete{
+   margin-bottom: 20px;
+   border-radius: 10px;
+   width:270px;
+   height:300px
+ }
+ .staff-ocho{
+   margin-bottom: 20px;
+   border-radius: 10px;
+   width:270px;
+   height:300px
+ }
+ .attributes{
+   margin-right: 1px;
+   margin-bottom: 100px;
+ } 
  .school{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 16px;
-    border-radius: 30px;
-    background-color: rgb(241, 241, 241);
+   display: flex;
+   justify-content: space-evenly;
+   margin: 16px;
+   border-radius: 30px;
+   background-color: rgb(241, 241, 241);
  } 
  .title-school{
-      margin: 20px;
+   margin: 20px;
  } 
  .title-innovation{
-   margin: 20px;
-}   
+   margin: 40px;
+ }   
  .innovation{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
  } 
  .school .innovation{
-          font-size: 25px;
+   font-size: 35px;
  } 
  .button3{
    display: flex;
    align-items: center;
    justify-content: center;
-   height: 50px;
-   width: 250px;
+   height: 100px;
+   width: 300px;
    text-align: center;
-   padding-bottom: 10px;
+   padding-bottom: 20px;
    background-color: rgb(0, 0, 0);
-   color: white;
+   color: #ffffff;
    border-radius: 50px;
  }
  .marketing4{
@@ -112,7 +165,28 @@
    background-size: 100% 50%;
    background-color:#fffffff8;
    background-repeat: no-repeat;
-}
+ }
+ .she{
+   background-color: #ffffff;
+ } 
+ .she-image{
+   margin: 50px;
+   border-radius:30px;
+   border: 5px solid rgb(0, 0, 0);
+   width:370px;
+   height:400px
+ }
+ .he{
+   margin: bottom 80px;
+   background-color: #ffffff;
+ } 
+ .he-image{
+   margin: 50px;
+   border-radius:30px;
+   border: 5px solid black;
+   width: 400px;
+   height: 400px;
+ }
  .marketing5{
    display: grid;
    text-align: center;
@@ -126,6 +200,16 @@
    background-repeat: no-repeat;
    margin: 50px;
    
+ }
+ .phone-uno{
+   margin: 1px;
+   width:275px;
+   height:450px
+ }
+ .phone-dos{
+   margin: 1px;  
+   width:275px;
+   height:450px
  }
  .opinions{
     display: grid;
@@ -180,6 +264,7 @@
     margin-top: 3mm;
     margin-left: 3mm;
     border-radius: 20px;
+    border: 2px solid black
  }
  .courses{
    display: flex;
@@ -240,27 +325,17 @@
     height: 20vh;
  }   
  .field{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 3cm;
-    margin-left: 3cm;
-    margin-right: 3cm;
-    margin-left: 3cm;
-    height: 50vh;
-    background-color:#EDE83B;
-    background-image:linear-gradient(#5271FF,#EDE83B,#BD55A2, #FF5859, #6BDDE9,#7ED957,#FF914D);
-    background-image: left, linear-gradient(to left #5271FF,#EDE83B, #BD55A2,#FF5859,#6BDDE9,#7ED957,#FF914D);
-    background-image: right, linear-gradient(to right #5271FF,#EDE83B,#BD55A2,#FF5859,#6BDDE9,#7ED957,#FF914D);
-    background-image:top, linear-gradient(to top #5271FF,#EDE83B,#BD55A2,#FF5859,#6BDDE9, #7ED957,#FF914D);
-    background-image:bottom, linear-gradient(to bottom #5271FF,#EDE83B,#BD55A2,#FF5859,#6BDDE9,#7ED957,#FF914D);
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 10px;
+   margin-bottom: 20px;
+   background-image: linear-gradient(#5271FF, #EDE83B, #BD55A2, #FF5859, #6BDDE9, #7ED957, #FF914D);
+   background-size: 100% 50%;
+   background-repeat: no-repeat;
+   background-position: bottom center;
+   margin-bottom: 10px;
  }   
- #t1{
-    transition: height 2s; width: 0.5s;
- }  
- #t1:hover{
-    height: 200px;
- }     
  .marketing3{
     display: flex; 
     height: 15vh;
@@ -275,7 +350,13 @@
     margin: 30px ;
     display: flex;
  }  
- 
+ .field img {
+   height: 300px;
+   width: 270px;  
+   background-color: lightblue;
+   border: 2px solid black
+ }
+
 /* Services */
  .cuadrados{
     margin: 10px 0;
