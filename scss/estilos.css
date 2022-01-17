@@ -473,8 +473,12 @@ header {
 
 .space {
   border-radius: 20px;
-  width: 550px;
+  width: 450px;
   height: 450px;
+  margin-left: 1cm;
+  margin-right: 1cm;
+  padding: 10px;
+  background-color: #000000;
 }
 
 .formulario {
@@ -485,8 +489,8 @@ header {
 }
 
 .container-dos {
-  margin-left: 50px;
-  width: 1500px;
+  margin-left: 120px;
+  width: 30cm;
 }
 
 /* Courses */
