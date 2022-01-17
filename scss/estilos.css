@@ -362,7 +362,7 @@ header {
 }
 
 .she {
-  background-color: #ffffff;
+  margin: bottom 80px;
 }
 
 .she-image {
@@ -727,6 +727,13 @@ footer {
   background-color: yellow;
 }
 
+/* Botón Newletter */
+.btn-primary {
+  color: black;
+  background-color: #EDE83B;
+  border-color: #000000;
+}
+
 @media only screen and (max-width: 768px) {
   /* Menú */
   header {
@@ -1004,7 +1011,6 @@ footer {
   }
   .she {
     margin: bottom 80px;
-    background-color: #ffffff;
   }
   .she-image {
     margin: 50px;
@@ -1260,6 +1266,56 @@ footer {
   .video video {
     width: 80%;
   }
+  /* bootstrap */
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: solid rgba(0, 0, 0, 0.15);
+    border-width: 1px 0;
+    -webkit-box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+            box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+  }
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+  /* Footer Tutor */
+  footer {
+    padding: 20px;
+  }
+  .ultimaCol {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .redes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .dropdown {
+    margin-top: 10px;
+  }
+  .botonPropio {
+    background-color: yellow;
+  }
+  /* Botón Newletter */
+  .btn-primary {
+    color: black;
+    background-color: #EDE83B;
+    border-color: #000000;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -1397,6 +1453,8 @@ footer {
     border-radius: 10px;
     background-color: white;
     border: 3px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   /* Main Index */
   .cuadrados {
@@ -1452,7 +1510,7 @@ footer {
   }
   .titulo-services {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50px;
+    font-size: 30px;
     border-radius: 10px;
     text-align: center;
     margin-top: 3cm;
@@ -1730,7 +1788,7 @@ footer {
     font-size: 40px;
   }
   .she {
-    background-color: #ffffff;
+    margin: bottom 80px;
   }
   .she-image {
     margin-right: 20px;
@@ -1893,6 +1951,12 @@ footer {
   }
   .botonPropio {
     background-color: yellow;
+  }
+  /* Botón Newsletter */
+  .btn-primary {
+    color: black;
+    background-color: #EDE83B;
+    border-color: #000000;
   }
   /* Others */
   .btn-secondary {

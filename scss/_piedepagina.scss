@@ -1,5 +1,5 @@
 /* bootstrap */
-.b-example-divider {
+ .b-example-divider {
     height: 3rem;
     background-color: rgba(0, 0, 0, .1);
     border: solid rgba(0, 0, 0, .15);
@@ -29,3 +29,9 @@
  .botonPropio {
    background-color: yellow;
  } 
+ /* Botón Newletter */
+ .btn-primary{
+  color: rgb(0, 0, 0);                              
+  background-color: #EDE83B;   
+  border-color: #000000;            
+}

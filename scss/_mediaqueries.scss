@@ -1,5 +1,4 @@
 @media only screen and (max-width: 768px){
-
  /* Menú */
    header{
     display: flex;
@@ -160,21 +159,21 @@
     flex-wrap: wrap;
     flex-basis: 100%;   
     margin:1px;
-   }
+  }
    .staff-uno{
     margin-bottom: 50px;
     margin-left: 100px;
     border-radius: 10px;
     width:270px;
     height:300px
-   }
+  }
    .staff-dos{
     margin-bottom: 50px;
     border-radius: 10px;
     margin-right: 50px;
     width:270px;
     height:300px
-   }
+  }
    .staff-tres{
     margin-bottom: 50px;
     border-radius: 10px;
@@ -182,42 +181,42 @@
     margin-right: 50px;
     width:270px;
     height:300px
-   }
+  }
    .staff-cuatro{
     margin-bottom: 50px;
     border-radius: 10px;
     margin-right: 50px;
     width:270px;
     height:300px
-   }
+  }
    .staff-cinco{
     margin-bottom: 50px;
     border-radius: 10px;
     margin-left: 100px;
     width:270px;
     height:300px
-   }
+  }
    .staff-seis{
     margin-bottom: 50px;
     border-radius: 10px;
     margin-right: 50px;
     width:270px;
     height:300px
-   }
+  }
    .staff-siete{
     margin-bottom: 50px;
     border-radius: 10px;
     margin-left: 100px;
     width:270px;
     height:300px
-   }
+  }
    .staff-ocho{
     margin-bottom: 50px;
     border-radius: 10px;
     margin-right: 50px;
     width:270px;
     height:300px
-   }
+  }
    .school{
      display: flex;
      justify-content: space-evenly;
@@ -227,48 +226,47 @@
      margin-bottom: 3px;
      border-radius: 30px;
      background-color: rgb(341, 341, 341);
-   } 
+  } 
    .title-school{
      margin: 20px;
      font-size: 35px;
      align-items: center;
      margin-left: 1cm;
-   }   
+  }   
    .title-innovation{
      margin: 20px;
      font-size: 35px;
      align-items: center;
      margin-left: 120px;
-   } 
+  } 
    .she{
     margin: bottom 80px;
-    background-color: #ffffff;
-   } 
+  } 
    .she-image{
     margin: 50px;
     border-radius:30px;
     border: 5px solid black;
     width:400px;
     height:400px;
-   }
+  }
    .he{
     margin: bottom 80px;
-   } 
+  } 
    .he-image{
     margin: 50px;
     border-radius:30px;
     border: 5px solid black;
     width: 400px;
     height: 400px;
-   }
+  }
    .innovation{
      display: flex;
      flex-direction: column;
      justify-content: space-evenly;
-   } 
+  } 
    .school .innovation{
      font-size: 25px;
-   } 
+  } 
    .button3{
     display: flex;
     align-items: center;
@@ -281,7 +279,7 @@
     background-color: rgb(0, 0, 0);
     color: white;
     border-radius: 50px;
-   }
+  }
    .marketing4{
    display: flex;
    justify-content:space-around;
@@ -289,7 +287,7 @@
    background-image: url('../img/Background/04.png');
    background-size: 100% 50%;
    background-repeat: no-repeat; 
-   }
+  }
    .marketing-cuatro{
    display: flex; 
    align-items: center;
@@ -302,20 +300,20 @@
    margin-left: 1cm;
    margin-right: 1cm;
    margin-bottom: 1cm;
-   }
+  }
    .phone-uno{
     margin: 1px;
     width:275px;
     height:450px
-   }
+  }
    .phone-dos{
     margin: 1px;  
     width:275px;
     height:450px
-   }
+  }
    .marketing5{
     display: flex
-   }
+  }
    .opinions{
    display: flex;
    flex-direction: column;
@@ -327,7 +325,7 @@
    margin: 30px;
    margin-right: 1cm;
    
-   }
+  }
    .card{
    display: flex;
    flex-direction: column;
@@ -340,42 +338,42 @@
    padding: 75px 10px 10px 10px;
    margin-right: 50px;
    margin-left: 50px;
-   } 
+  } 
    .opinions .profile{
    width: 150px;
    height: 150px;
    position: absolute;
    top: -75px;
    border-radius: 50%;
-   }  
+  }  
    .opinions .star{ 
    width: 20px;
-   } 
+  } 
 
    /* Contact */
    .office{
     display:flex;
     align-items: center;
     flex-direction: column;
-   }
+  }
    .space{
     border-radius: 10px;
     width:550px;
     height:300px;
     flex-basis: 100%;   
     margin: 10px;
-   }
+  }
    .formulario{
     margin-left: 20px;
     margin-right: 20px;
     padding: 20px;
     background-color: #e7e7e6;
     border-radius: 10px;
-   }
+  }
    .container-dos{
     margin-left: 90px;
     width: 700px;
-   }
+  }
 
    /* Courses */
    .filters{
@@ -395,12 +393,12 @@
     border: 2px solid black;
     width: 70%;
     
-   }
+  }
    .courses{
    display: flex;
    flex-direction: column;
    align-items: center;
-   }
+  }
    .courses li{
    font-size: 30px;
    border: solid 2px black;
@@ -410,7 +408,7 @@
    text-align: center;
    margin-top: 3mm;
    width: 70%;
-   }   
+  }   
    .courses li a{
   background-color: white;
   color: black;
@@ -421,7 +419,7 @@
   box-shadow: 0 1px black;
   display: inline-block;
   width: 100%;
-   } 
+  } 
 
    /* Academy */
    .background-bitz{
@@ -432,45 +430,82 @@
     background-position: bottom center;
     background-size: 100% 50%;
     background-repeat: no-repeat;
-   }  
+  }  
    .video{
     display: flex;
     justify-content: center;
-   }
+  }
    .video video{ 
     width: 80%;
-   }
+  }
+   /* bootstrap */
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  } 
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+  /* Footer Tutor */
+  footer {
+    padding: 20px;
+  }
+  .ultimaCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .redes {
+    display: flex;
+    flex-direction: column;
+  }
+  .dropdown {
+    margin-top: 10px;
+  }
+  .botonPropio {
+    background-color: yellow;
+  }
 
+  /* Botón Newletter */
+  .btn-primary{
+    color: rgb(0, 0, 0);                              
+    background-color: #EDE83B;   
+    border-color: #000000;            
+  }
 }
 
 @media only screen and (max-width: 480px){
    /* Menú */
    header {
     flex-direction: column;
-   }
+  }
    header nav {
     flex-direction: column;
-   }
+  }
    header .logo {
     width: 200px;
-   }
+  }
    header nav li {
     list-style: none;
     padding: 10px 30px;
     background-color: black;
     margin: 10px;
     border-radius: 10px;
-   }
+  }
    header nav li a {
     text-decoration: none;
     color: white;
-   }
+  }
    header nav li a:hover {
     color: yellow;
-   }
+  }
    header .profile {
     width: 50px;
-   }  
+  }  
    .menuMobile {
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -479,80 +514,82 @@
     position: fixed;
     width: 100%;
     bottom: 0;
-   }
+  }
    .menuMobile div a {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-decoration: none;
     color: black;
-   }
+  }
    .menuMobile img {
     width: 30px;
-   }
+  }
    .menuMobile span {
     display: block;
-   }
+  }
    .favorites{
     flex-basis: 50%;
-   }
+  }
    .profile_movil{
     flex-basis: 50%;
-   }
+  }
 
    /* Carousel */
    .carousel-item {
          height: 200px;
          flex-basis: 50%;
-   }
+  }
    .carousel-item img {
          height: 100%;
          width: 100%;
          object-fit: cover;
-   }
+  }
 
    /* Icons */
    .header__logo{
          width: 250px;
          margin-right: 130px;
-   }
+  }
    .header__profile{
          width: 80px;
-   }
+  }
    .header__like{
          width: 80px;
          margin-right: 100px;
-   }
+  }
    .header__lupa{
          width: 80px;
          margin-right: 100px;
-   }
+  }
    header { 
          display: flex;
          justify-content: space-evenly;
          align-items: center;
-   }  
+  }  
    .mobile__app{
          margin: 3px ;
          display:flex;
-   }  
+  }  
 
    /* Search */
    .search_movil{
           width: 50px;    
-   }  
+  }  
    .navbar-brand{
          margin-left: 2cm;
          margin-right: 2cm;
-   }  
+  }  
    .navbar-brand{
     flex-basis: 50%;
-   }  
+  }  
    .container-md{
     border-radius: 10px; 
     background-color: rgb(255, 255, 255);
     border: 3px solid rgb(0, 0, 0);
-   }  
+    margin-left: 20px;
+    margin-right: 20px;
+  }  
 
    /* Main Index */
    .cuadrados{
@@ -565,18 +602,18 @@
     background-position: bottom center;
     background-size: 200% 100%;
     background-repeat: no-repeat;
-   }
+  }
    .cuadrados section{
     border: 7px solid rgb(255, 255, 255);
     border-radius: 25px;
     padding: 20px; 
     background-color: rgb(0, 0, 0);
     justify-content: center;
-   }    
+  }    
    .section{
     flex-basis: 50%;
 
-   }
+  }
    .button2{
     text-decoration: none;
     margin: 50px 0;
@@ -585,7 +622,7 @@
     font-size: 30px; 
     padding: 20px;
     flex-basis: 50%;
-   }   
+  }   
    .button{
     flex-basis: 50%;
     display: flex;
@@ -593,10 +630,10 @@
     background-color: rgb(0, 0, 0);
     border: rgb(255, 255, 255);
     border-radius: 50px;
-   }  
+  }  
    .titulo-services{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50px;
+    font-size: 30px;
     border-radius: 10px;
     text-align: center;
     margin-top: 3cm;
@@ -606,24 +643,24 @@
     padding: 20px;
     color:rgb(255, 255, 255);
     background-color: black;
-   }
+  }
 
    /* Contact */
    .office{
     display: flex;
     justify-content: space-between;
     align-items: center;
-   }
+  }
    .space{
     border-radius: 10px;
     width:100%;     
-   }
+  }
    .formulario{
     padding: 3%;
     margin-bottom: 10px;
     background-color: #ffffff;
     border-radius: 10px;
-   }
+  }
    
   /* Courses */
    .courses{
@@ -631,7 +668,7 @@
     flex-direction: column;
     align-items: center;
     padding: 0 16px;
-   }   
+  }   
    .courses li{
     font-size: 30px;
     width: 100%;
@@ -641,7 +678,7 @@
     list-style-type: none;
     text-align: center;
     margin-top: 3mm;
-   }  
+  }  
    .courses li a{
    background-color: white;
    color: black;
@@ -652,7 +689,7 @@
    box-shadow: 0 1px black;
    display: inline-block;
    width: 100%;
-   }  
+  }  
    .filters{
     display: grid;
     text-decoration: none;
@@ -668,7 +705,7 @@
     margin-left: 3mm;
     border-radius: 20px;
     border: 2px solid black
-   }
+  }
 
     /* Fields */
    .transition{
@@ -682,7 +719,7 @@
     font-family: sans-serif;
     border: 5px solid #000;   
     height: 20vh;
-   }   
+  }   
    .field{
     display: flex;
     flex-wrap: wrap;
@@ -694,7 +731,7 @@
     background-repeat: no-repeat;
     background-position: bottom center;
     margin-bottom: 10px;
-   }    
+  }    
    .marketing3{
     display: flex; 
     height: 15vh;
@@ -704,17 +741,17 @@
     background-image: linear-gradient(to right #5271FF,#EDE83B,#BD55A2,#FF5859,#6BDDE9,#7ED957,#FF914D);
     background-image: linear-gradient(to top #5271FF,#EDE83B,#BD55A2,#FF5859,#6BDDE9, #7ED957,#FF914D);
     background-image: linear-gradient(to bottom #5271FF,#EDE83B,#BD55A2,#FF5859,#6BDDE9,#7ED957,#FF914D);
-   }
+  }
    .banner__remix:hover{
     margin: 30px ;
     display: flex;
-   }  
+  }  
    .field img {
     height: 300px;
     width: 270px;  
     background-color: lightblue;
     border: 2px solid black
-   }
+  }
 
    /* Academy */
    .background-bitz{
@@ -725,21 +762,21 @@
    background-position: bottom center;
    background-size: 100% 50%;
    background-repeat: no-repeat;
-   }  
+  }  
    .video{
    display: flex;
    justify-content: center;
-   }
+  }
    .video video{ 
    width: 80%;
-   }
+  }
 
    /* Main About Us */
    .staff{
       flex-basis: 20%;
       flex-direction: column;
       margin:3px;
-   }
+  }
    .staff-uno{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -748,7 +785,7 @@
     border-radius: 10px;
     width:270px;
     height:300px;
-   }
+  }
    .staff-dos{
     margin-bottom: 20px;
     border-radius: 10px;
@@ -756,7 +793,7 @@
     margin-left: 20px;
     width:270px;
     height:300px;
-   }
+  }
    .staff-tres{
     margin-bottom: 20px;
     border-radius: 10px;
@@ -764,7 +801,7 @@
     margin-left: 20px;
     width:270px;
     height:300px;
-   }
+  }
    .staff-cuatro{
     margin-bottom: 20px;
     border-radius: 10px;
@@ -772,7 +809,7 @@
     margin-left: 20px;
     width:270px;
     height:300px;
-   }
+  }
    .staff-cinco{
     margin-bottom: 20px;
     border-radius: 10px;
@@ -780,7 +817,7 @@
     margin-left: 20px;
     width:270px;
     height:300px;
-   }
+  }
    .staff-seis{
     margin-bottom: 20px;
     border-radius: 10px;
@@ -788,7 +825,7 @@
     margin-left: 20px;
     width:270px;
     height:300px;
-   }
+  }
    .staff-siete{
     margin-bottom: 20px;
     border-radius: 10px;
@@ -796,7 +833,7 @@
     margin-left: 20px;
     width:270px;
     height:300px;
-   }
+  }
    .staff-ocho{
     margin-bottom: 20px;
     border-radius: 10px;
@@ -804,7 +841,7 @@
     margin-left: 20px;
     width:270px;
     height:300px;
-   }
+  }
    .school{
     display: flex;
     flex-basis: 50%;
@@ -814,19 +851,19 @@
     margin-top: 30px;
     border-radius: 30px;
     background-color: rgb(255, 255, 255);
-   } 
+  } 
    .title-school{
     margin: 1px;
     font-size: 60px;
     flex-direction: column;
-   } 
+  } 
    .title-innovation{
     margin: 15px;
     font-size: 40px;
-   }  
+  }  
    .she{
-    background-color: #ffffff;
-   } 
+    margin: bottom 80px;
+  } 
    .she-image{
     margin-right: 20px;
     margin-left: 20px;
@@ -835,30 +872,30 @@
     border: 5px solid black;
     width:270px;
     height:300px;
-   }
+  }
    .he{
     margin: bottom 80px;
-   } 
+  } 
    .he-image{
     border-radius:30px;
     border: 5px solid black;
     width:270px;
     height:300px;
     margin-left: 90px 0;
-   }
+  }
    .attributes{
     margin-left: 8px;
     list-style: none;
-   } 
+  } 
    .innovation{
      display: flex;
      flex-basis: 50%;
      margin-left: 90px;
-   } 
+  } 
    .school .innovation{
      font-size: 25px;
      margin-left: 0;
-   } 
+  } 
    .button3{
      display: flex;   
      height: 80px;
@@ -867,7 +904,7 @@
      background-color: rgb(0, 0, 0);
      color: rgb(255, 255, 255);
      border-radius: 50px;
-   }
+  }
    .marketing-cuatro{
      display: flex; 
      flex-direction: column;
@@ -879,20 +916,20 @@
      background-size: 100% 50%;
      background-color:#fffffff8;
      background-repeat: no-repeat;
-   }
+  }
    .phone-uno{
      margin: 1px;
      width:175px;
      height:300px
-   }
+  }
    .phone-dos{
     margin: 1px;  
     width:175px;
     height:300px
-   }
+  }
    .marketing5{
     display: none
-   }
+  }
    .opinions{
    display: flex;
    flex-direction: column;
@@ -902,7 +939,7 @@
    width: 100%;
    max-width: 900px;
    margin: 0 auto;
-   }
+  }
    .card{
    display: flex;
    flex-direction: column;
@@ -913,51 +950,58 @@
    margin-top: 100px;
    position: relative;
    padding: 75px 10px 10px 10px;
-   }
+  }
    .opinions .profile{
    width: 150px;
    height: 150px;
    position: absolute;
    top: -75px;
    border-radius: 50%;
-   }  
+  }  
    .opinions .star{ 
    width: 20px;
-   }  
+  }  
 
    /* FOOTER - Bootstrap */
    .b-example-divider{
       display: none;
-   } 
+  } 
    .bi{
       display: none;
-   } 
+  } 
 
    /*  FOOTER - Tutor */
    footer {
      flex-basis: 100%;
-   }
+  }
    .ultimaCol {
      display: flex;
      flex-direction: column;
      justify-content: center;
-   }
+  }
    .redes {
      display: flex;
      flex-direction: column;
-   }
+  }
    .dropdown {
      margin-top: 10px;
-   }
+  }
    .botonPropio {
      background-color: yellow;
-   } 
+  } 
 
-  /* Others */
+   /* Botón Newsletter */
+   .btn-primary{
+     color: rgb(0, 0, 0);                              
+     background-color: #EDE83B;   
+     border-color: #000000;            
+  }
+
+   /* Others */
    .btn-secondary{
      display: none;
-   } 
+  } 
    #profile__horizontal{
      display: none;
-   }   
+  }   
 } 
