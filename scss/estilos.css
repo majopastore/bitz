@@ -1792,7 +1792,7 @@ footer {
   }
   .she-image {
     margin-right: 20px;
-    margin-left: 20px;
+    margin-left: 75px;
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
     border-radius: 30px;
@@ -1808,7 +1808,7 @@ footer {
     border: 5px solid black;
     width: 270px;
     height: 300px;
-    margin-left: 90px 0;
+    margin-left: 90px;
   }
   .attributes {
     margin-left: 8px;
@@ -1824,7 +1824,7 @@ footer {
   }
   .school .innovation {
     font-size: 25px;
-    margin-left: 0;
+    margin-left: 2cm;
   }
   .button3 {
     display: -webkit-box;
