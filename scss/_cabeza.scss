@@ -24,8 +24,12 @@
     text-decoration: none;
     color: white;
  }
- header nav li a:hover {
-    color: yellow;
+ header nav li a:hover{
+   color: black;
+}
+ header nav li:hover {
+    background-color: #EDE83B;
+    color: black;
  }
  header .profile {
     width: 50px;
@@ -79,7 +83,7 @@
  .search_movil{
    width: 50px;    
  }  
- .navbar-brand{
+  .navbar-brand{
     margin-left: 1cm;
     margin-right: 1cm; 
  }  

@@ -29,9 +29,13 @@
  .botonPropio {
    background-color: yellow;
  } 
- /* Botón Newletter */
+ /* Botón Newletter y Submit */
  .btn-primary{
   color: rgb(0, 0, 0);                              
   background-color: #EDE83B;   
   border-color: #000000;            
-}
+ }
+ .btn-primary:hover{
+  background-color: black;
+  border-color: black;
+ } 

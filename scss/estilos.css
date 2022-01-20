@@ -49,7 +49,12 @@ header nav li a {
 }
 
 header nav li a:hover {
-  color: yellow;
+  color: black;
+}
+
+header nav li:hover {
+  background-color: #EDE83B;
+  color: black;
 }
 
 header .profile {
@@ -169,6 +174,10 @@ header {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 40px;
   padding: 50px;
+}
+
+.button2:hover {
+  color: #EDE83B;
 }
 
 .marketing1 {
@@ -366,7 +375,6 @@ header {
 }
 
 .she-image {
-  margin: 50px;
   border-radius: 30px;
   border: 5px solid black;
   width: 370px;
@@ -378,7 +386,6 @@ header {
 }
 
 .he-image {
-  margin: 50px;
   border-radius: 30px;
   border: 5px solid black;
   width: 400px;
@@ -727,11 +734,16 @@ footer {
   background-color: yellow;
 }
 
-/* Botón Newletter */
+/* Botón Newletter y Submit */
 .btn-primary {
   color: black;
   background-color: #EDE83B;
   border-color: #000000;
+}
+
+.btn-primary:hover {
+  background-color: black;
+  border-color: black;
 }
 
 @media only screen and (max-width: 768px) {
@@ -1013,7 +1025,6 @@ footer {
     margin: bottom 80px;
   }
   .she-image {
-    margin: 50px;
     border-radius: 30px;
     border: 5px solid black;
     width: 400px;
@@ -1023,7 +1034,6 @@ footer {
     margin: bottom 80px;
   }
   .he-image {
-    margin: 50px;
     border-radius: 30px;
     border: 5px solid black;
     width: 400px;
@@ -1075,6 +1085,8 @@ footer {
     background-image: url("../img/Background/04.png");
     background-size: 100% 50%;
     background-repeat: no-repeat;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .marketing-cuatro {
     display: -webkit-box;
@@ -1774,6 +1786,9 @@ footer {
     margin-top: 30px;
     border-radius: 30px;
     background-color: white;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .title-school {
     margin: 1px;
@@ -1792,7 +1807,6 @@ footer {
   }
   .she-image {
     margin-right: 20px;
-    margin-left: 75px;
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
     border-radius: 30px;
@@ -1808,7 +1822,6 @@ footer {
     border: 5px solid black;
     width: 270px;
     height: 300px;
-    margin-left: 90px;
   }
   .attributes {
     margin-left: 8px;
@@ -1820,11 +1833,9 @@ footer {
     display: flex;
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
-    margin-left: 90px;
   }
   .school .innovation {
     font-size: 25px;
-    margin-left: 2cm;
   }
   .button3 {
     display: -webkit-box;
