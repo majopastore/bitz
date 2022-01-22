@@ -533,6 +533,10 @@
    .profile_movil{
     flex-basis: 50%;
   }
+   /*Logo profile */
+   #profile__horizontal{
+    display: none;
+  }   
 
    /* Carousel */
    .carousel-item {
@@ -995,9 +999,6 @@
 
    /* Others */
    .btn-secondary{
-     display: none;
+     display: flex;
   } 
-   #profile__horizontal{
-     display: none;
-  }   
 } 

@@ -734,6 +734,11 @@ footer {
   background-color: yellow;
 }
 
+.linkedin-logo {
+  max-width: 25px;
+  max-height: 25px;
+}
+
 /* Botón Newletter y Submit */
 .btn-primary {
   color: black;
@@ -1404,6 +1409,10 @@ footer {
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
   }
+  /*Logo profile */
+  #profile__horizontal {
+    display: none;
+  }
   /* Carousel */
   .carousel-item {
     height: 200px;
@@ -1971,10 +1980,9 @@ footer {
   }
   /* Others */
   .btn-secondary {
-    display: none;
-  }
-  #profile__horizontal {
-    display: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
