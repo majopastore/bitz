@@ -1938,7 +1938,9 @@ footer {
     display: none;
   }
   .bi {
-    display: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   /*  FOOTER - Tutor */
   footer {
