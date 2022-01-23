@@ -135,6 +135,13 @@ header {
   border: 3px solid black;
 }
 
+.logo_search {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 /* Main Index */
 .cuadrados {
   margin: 10px 0;
@@ -178,22 +185,6 @@ header {
 
 .button2:hover {
   color: #EDE83B;
-}
-
-.marketing1 {
-  display: -ms-grid;
-  display: grid;
-  text-align: center;
-  font-size: 15px;
-  font-family: sans-serif;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-rows: 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
-  grid-row-gap: 20px;
-  background-color: black;
-  background-size: 30% 80%;
-  background-repeat: no-repeat;
 }
 
 .titulo-services {
@@ -681,6 +672,20 @@ header {
 
 .video video {
   width: 80%;
+}
+
+/* Línea frintal del footer */
+.marketing1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  grid-row-gap: 15px;
+  background-color: black;
+  background-size: 20% 50%;
+  background-repeat: no-repeat;
 }
 
 /* bootstrap */

@@ -33,18 +33,6 @@
  .button2:hover{
    color: #EDE83B;
  } 
- .marketing1{
-   display: grid;
-   text-align: center;
-   font-size: 15px;
-   font-family: sans-serif;
-   grid-template-columns: 1fr 1fr 1fr;
-   grid-template-rows: 1fr 1fr 1fr;
-   grid-row-gap: 20px;
-   background-color: rgb(0, 0, 0);
-   background-size: 30% 80%;
-   background-repeat: no-repeat;
- }
  .titulo-services{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-size: 50px;
@@ -267,7 +255,7 @@
  .container-dos{
   margin-left: 120px;
   width: 30cm;
-}
+ }
 
 /* Courses */
  .filters{
