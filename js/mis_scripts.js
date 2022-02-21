@@ -1,8 +1,8 @@
+// código linkeado al HTML de de contact
 console.log("Completa tus datos personales");
 
 //variable
 var nombre = "Pablo" 
-
 
 //declaración
 let nombre = prompt ("ingrese su nombre");
