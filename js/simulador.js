@@ -1,4 +1,7 @@
-console.log("Completa tus datos");
+console.log("¡Hola!");
+console.log("Completa tu nombre y apellido");
+console.log("Completa tu edad");
+console.log("Completa tu área de interés");
 
 let nombre = prompt ("Ingrese su nombre");
 let apellido = prompt ("Complete su apellido");
@@ -7,6 +10,7 @@ let area = prompt ("ingrese el área de interés");
 
 
 // 1. y 2. - Pedir nombre y apellido //
+console.log("Completa tu nombre y apellido");
 let nombre = prompt ("ingrese su nombre");
 let apellido = prompt ("Complete su apellido");
 
@@ -19,6 +23,7 @@ let apellido = prompt ("Complete su apellido");
 
 
  // 3.- Pedir la edad //
+ console.log("Completa tu edad");
 let edad = prompt ("ingrese tu edad");
 
  if  (edad == "") {
@@ -36,7 +41,9 @@ let edad = prompt ("ingrese tu edad");
 
 
  // 4.- Pedir el área  //
+ console.log("Completa tu área de interés");
 let area = prompt ("ingrese su área de interés");
+
 
  if (area == "") {
      alert ("No ingresaste un área");    
