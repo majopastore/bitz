@@ -3,12 +3,6 @@ console.log("Completa tu nombre y apellido");
 console.log("Completa tu edad");
 console.log("Completa tu área de interés");
 
-let nombre = prompt ("Ingrese su nombre");
-let apellido = prompt ("Complete su apellido");
-let edad = prompt ("Ingresa tu edad");
-let area = prompt ("ingrese el área de interés");
-
-
 // 1. y 2. - Pedir nombre y apellido //
 console.log("Completa tu nombre y apellido");
 let nombre = prompt ("ingrese su nombre");
